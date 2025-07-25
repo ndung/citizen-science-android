@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "833906315170",
+    "project_id": "fimo-e8eb9",
+    "storage_bucket": "fimo-e8eb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833906315170:android:fc90d47950f9dd42ad2cfb",
+        "android_client_info": {
+          "package_name": "id.go.fimo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833906315170-s3b6lp2jt6i7c0mnetih12lqsadbp0oe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjcWFDQWLoJrF5zSAYnVgLjmHeAhjPHT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833906315170-adjmk5dusk1ign4q0632r4m0b31n3704.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

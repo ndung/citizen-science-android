@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="false"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+    android:layout_centerVertical="true"
+    android:background="@drawable/fishbg">
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorAccent"
+        android:letterSpacing="0.1"
+        android:text="@string/action_logout"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/top_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="12dp"
+            android:text="FiMo"
+            android:textColor="@color/ms_white"
+            android:textSize="16dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="12dp"
+            android:gravity="right"
+            android:text="User name"
+            android:textColor="@color/ms_white"
+            android:textSize="16dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/button_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_panel"
+        android:layout_centerInParent="true"
+        android:layout_margin="40dp">
+
+        <LinearLayout
+            android:id="@+id/panel_add_data"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_gradient"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@color/ms_white"
+                android:src="@android:drawable/ic_input_add" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tambah data"
+                android:textColor="@color/ms_white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/panel_list_data"
+            android:layout_below="@+id/panel_add_data"
+            android:layout_width="130dp"
+            android:layout_height="90dp"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_gradient"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@color/ms_white"
+                android:src="@android:drawable/ic_input_get" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ms_white"
+                android:text="Daftar data"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/panel_map_data"
+            android:layout_below="@+id/panel_add_data"
+            android:layout_width="130dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|end"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_gradient"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:tint="@color/ms_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_dialog_map" />
+
+            <TextView
+                android:textColor="@color/ms_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peta data"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
